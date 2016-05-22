@@ -1,0 +1,13 @@
+section.request#request
+  .wrapper
+    .request__title Оставьте заявку на подключение
+    form(action="").request__form
+      input.request__input.request__input--street(type="text", placeholder="Улица")
+      input.request__input.request__input--house(type="text", placeholder="Дом")
+      input.request__input.request__input--name(type="text", placeholder="Ваше имя")
+      input.request__input.request__input--phone(type="text", placeholder="Телефон для связи")
+      label.request__label
+        input.request__checkbox(type="checkbox", checked)
+        .request__check
+        .request__text Даю согласие на обработку данных
+      button.request__button(type="submit") Отправить заявку

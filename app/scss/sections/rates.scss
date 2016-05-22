@@ -1,0 +1,215 @@
+.rates {
+  &__block {
+    height: 160px;
+    padding-top: 55px;
+    @include clearfix;
+
+    &:nth-child(1) {
+      background: #f47d5a;
+      height: 175px;
+      padding-top: 80px;
+    }
+    &:nth-child(2) {
+      background: #ee7954;
+    }
+    &:nth-child(3) {
+      background: #ea7450;
+    }
+    &:nth-child(4) {
+      background: #e66f49;
+      padding-top: 45px;
+
+      .rates__name {
+        margin-top: 18px;
+      }
+    }
+    &:nth-child(5) {
+      background: #e06c49;
+      padding-top: 45px;
+
+      .rates__name {
+        margin-top: 18px;
+      }
+    }
+
+    .wrapper {
+      @include clearfix;
+    }
+  }
+  &__name {
+    font-family: $btMed;
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: 10px;
+    float: left;
+
+    .rates__plus {
+      margin: 0;
+    }
+  }
+  &__right {
+    float: right;
+  }
+  &__speed {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__bold {
+    font-family: $btMed;
+    font-size: 30px;
+    line-height: 33px;
+  }
+  &__text {
+    font-family: $btMed;
+    font-size: 20px;
+    line-height: 23px;
+    color: #f0b6a4;
+  }
+  &__plus {
+    font-family: $btMed;
+    font-size: 30px;
+    line-height: 33px;
+    margin: 0 15px;
+  }
+  &__info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 174px;
+
+    &--480 {
+      display: none;
+    }
+  }
+  &__money {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+  }
+  &__button {
+    display: inline-block;
+    vertical-align: middle;
+    width: 193px;
+    height: 54px;
+    font-family: $btMed;
+    font-size: 18px;
+    line-height: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+    margin-left: 50px;
+
+    &:hover {
+      color: #f47d5a;
+      background: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .rates {
+    &__money {
+      margin-left: 5px;
+    }
+    &__button {
+      margin-left: 15px;
+    }
+    &__plus {
+      margin: 0 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .rates {
+    max-width: 480px;
+    margin: 0 auto;
+
+    .wrapper {
+      margin-left: 60px;
+    }
+
+    &__block {
+      height: 185px;
+      padding-top: 20px;
+
+      &:nth-child(1) {
+        height: 185px;
+        padding-top: 30px;
+      }
+
+      &:nth-child(4) {
+        padding-top: 20px;
+
+        .rates__name {
+          margin-top: 0;
+        }
+      }
+
+      &:nth-child(5) {
+        padding-top: 20px;
+        .rates__name {
+          margin-top: 0;
+        }
+      }
+    }
+    &__info {
+      display: none;
+
+      &--480 {
+        display: block;
+        width: 100%;
+        margin: 6px 0 25px;
+
+        .rates__text {
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+    }
+    &__right {
+      float: none;
+    }
+    &__tv {
+      display: none;
+    }
+    &__text {
+      display: block;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    &__bold {
+      font-size: 15px;
+      line-height: 18px;
+    }
+    &__speed {
+      margin-right: 12px;
+    }
+    &__money {
+      margin-right: 20px;
+    }
+    &__button {
+      width: 142px;
+      height: 38px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+    &__plus {
+      display: none;
+    }
+    &__name {
+      margin-top: 0;
+      float: none;
+
+      .rates__plus {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .rates {
+    .wrapper {
+      margin-left: 10px;
+    }
+  }
+}

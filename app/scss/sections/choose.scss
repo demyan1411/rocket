@@ -1,0 +1,89 @@
+.choose {
+  text-align: center;
+  color: #616e70;
+  padding-top: 48px;
+  padding-bottom: 91px;
+  background: url(../img/choose-bottom.jpg) center bottom no-repeat;
+
+  &__title {
+    font-family: $geoBold;
+    font-size: 28px;
+    line-height: 31px;
+    color: #0a0a16;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    font-size: 22px;
+    line-height: 25px;
+    max-width: 640px;
+    margin: 0 auto;
+    margin-bottom: 63px;
+  }
+  &__block {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 33px;
+    margin-bottom: 35px;
+
+    // &:nth-child(1) {
+    //   margin-left: 0;
+    // }
+    // &:nth-child(3) {
+    //   margin-right: 0;
+    // }
+  }
+  &__img {
+    display: inline-block;
+    margin-bottom: 9px;
+  }
+  &__name {
+    font-family: $geoMed;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .choose {
+    background: url(../img/choose-bottom-480.jpg) center bottom no-repeat;
+    padding-bottom: 45px;
+
+    &__title {
+      font-size: 25px;
+      line-height: 28px;
+    }
+    &__subtitle {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &__block {
+      margin-bottom: 45px;
+    }
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .choose {
+    &__title {
+      font-size: 22px;
+      line-height: 25px;
+    }
+    &__subtitle {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    &__block {
+      margin: 0 4px 40px;
+    }
+  }
+}

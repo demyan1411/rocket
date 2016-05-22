@@ -1,0 +1,84 @@
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s linear;
+
+  &.js-active {
+    visibility: visible;;
+    opacity: 1;
+  }
+
+  &__overlay {
+    background: rgba(0, 0, 0, .75);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  &__block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 15px;
+    width: 433px;
+    padding: 40px 50px 35px;
+  }
+  &__form {
+    color: #333;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  &__desc {
+    margin-bottom: 12px;
+  }
+  &__input {
+    border: 1px solid #cccbcb;
+    padding-left: 48px;
+    height: 41px;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    margin-bottom: 11px;
+    color: #333;
+
+    &--person {
+      background: url(../img/popup-person.png) 9px 3px no-repeat;
+    }
+    &--phone {
+      background: url(../img/popup-phone.png) 11px 4px no-repeat;
+      margin-bottom: 15px;
+    }
+  }
+  &__button {
+    margin-bottom: 22px;
+    width: 100%;
+    height: 78px;
+    font-family: $geoBold;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: 0;
+    border: 3px solid #f26638;
+    border-top: 4px solid #fea587;
+    background: #fe794c;
+    background: -moz-linear-gradient(top,  #fe794c 0%, #f75727 100%);
+    background: -webkit-linear-gradient(top,  #fe794c 0%,#f75727 100%);
+    background: linear-gradient(to bottom,  #fe794c 0%,#f75727 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe794c', endColorstr='#f75727',GradientType=0 );
+  }
+  &__text {
+    width: 322px;
+    padding-left: 41px;
+    background: url(../img/popup-phone2.png) 4px 1px no-repeat;
+  }
+}

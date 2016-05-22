@@ -1,0 +1,256 @@
+.main-block {
+  background: url(../img/main-block.jpg) center top no-repeat;
+  text-align: center;
+  padding-bottom: 70px;
+
+  &__title {
+    max-width: 665px;
+    font-family: $geoBold;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 88px;
+    margin-bottom: 29px;
+  }
+  &__rate {
+    font-size: 25px;
+    line-height: 28px;
+    font-family: $btLight;
+  }
+
+  &__button {
+    font-family: "geometriabold";
+    font-size: 22px;
+    line-height: 25px;
+    background: #ff8054;
+    margin-top: 45px;
+    display: inline-block;
+    padding: 15px 32px;
+  }
+
+  &__down {
+    width: 27px;
+    height: 15px;
+    background: url(../img/down.png) 0 0 no-repeat;
+    display: block;
+    margin: 0 auto;
+    margin-top: 71px;
+  }
+}
+.menu {
+  padding-top: 28px;
+  text-align: left;
+  @include clearfix;
+
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+  }
+  &__list {
+
+  }
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 145px;
+    margin: 0 28px;
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+    &:nth-child(2) {
+      width: 80px;
+    }
+    &:nth-child(3) {
+      width: 225px;
+      margin-right: 0;
+    }
+  }
+  &__link {
+    font-family: $btLight;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 0 3px;
+
+
+    &:hover {
+      font-family: $btExtraB;
+      color: #f17648;
+    }
+  }
+}
+.phone {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  text-align: right;
+  margin-left: 56px;
+  margin-top: -8px;
+
+  &__link {
+    font-family: $btLight;
+    font-size: 24px;
+    line-height: 33px;
+    background: url(../img/phone.png) 2px 6px no-repeat;
+    padding-left: 25px;
+
+    &--bold {
+      font-family: $btBold;
+    }
+  }
+  &__button {
+    font-family: $geoBold;
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    width: 197px;
+    height: 24px;
+    background: #1d9c5d;
+    border-radius: 3px;
+    margin-top: 4px;
+    display: inline-block;;
+    text-align: center;
+  }
+}
+
+.counter {
+  position: absolute;
+  right: 15px;
+  bottom: 47px;
+  text-align: center;
+
+  &__title {
+    font-family: $geoBold;
+    font-size: 25px;
+    line-height: 28px;
+
+    &--small {
+      font-size: 19px;
+      line-height: 22px;
+      display: block;
+    }
+    &--span {
+      font-family: $btLight;
+      font-size: 17px;
+      line-height: 20px;
+      color: #cdcdcd;
+    }
+  }
+  &__list {
+    margin-top: 13px;
+  }
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+
+    &:nth-child(2) {
+      margin: 0 10px;
+    }
+  }
+  &__block {
+    width: 84px;
+    height: 84px;
+    border: 3px solid #f17648;
+    border-radius: 13px;
+    text-align: center;
+    font-family: $robotoBold;
+    font-size: 37px;
+    line-height: 79px;
+  }
+  &__text {
+    font-family: $btLight;
+    font-size: 17px;
+    line-height: 20px;
+    color: #cdcdcd;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .menu {
+    &__nav {
+      display: none;
+    }
+  }
+  .main-block {
+    background: url(../img/main-block-480.jpg) center top no-repeat;
+    padding-bottom: 35px;
+
+    &__title {
+      font-size: 30px;
+      line-height: 44px;
+      margin-top: 25px;
+      margin-bottom: 13px;
+    }
+    &__rate {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    &__button {
+      margin-top: 35px;
+    }
+    &__down {
+      margin-top: 23px;
+    }
+  }
+  .counter {
+    position: static;
+
+    &__title {
+      font-size: 22px;
+
+      &--small {
+        font-size: 17px;
+      }
+      &--span {
+        font-size: 16px;
+      }
+    }
+    &__block {
+      width: 75px;
+      height: 75px;
+      line-height: 71px;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 18px;
+      margin-top: 3px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 477px) {
+  .menu {
+    text-align: center;
+  }
+  .phone {
+    display: none;
+  }
+  .main-block {
+    padding-bottom: 40px;
+
+    &__title {
+      font-size: 23px;
+      line-height: 31px;
+    }
+    &__rate {
+      font-size: 19px;
+      line-height: 22px;
+      max-width: 200px;
+      margin: 0 auto;
+      margin-bottom: 25px;
+    }
+    &__button {
+      margin-top: 40px;
+    }
+    &__down {
+      margin-top: 27px;
+    }
+  }
+}

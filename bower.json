@@ -1,0 +1,23 @@
+{
+  "name": "dom1",
+  "version": "0.0.0",
+  "authors": [
+    "Drozdov Demyan <demyan1411@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/bower"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "normalize-css": "normalize.css#~3.0.3"
+  },
+  "devDependencies": {
+    "modernizr": "~2.8.3"
+  }
+}

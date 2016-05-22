@@ -1,0 +1,24 @@
+﻿/* --------- mixins --------- */
+
+@import "_includes/mixins";
+
+/* --------- variables --------- */
+
+@import "_includes/variables";
+
+/* --------- fonts --------- */
+
+@import "_includes/fonts";
+
+/* --------- sections --------- */
+
+@import "sections/default.scss";
+@import "sections/layout.scss";
+@import "sections/header.scss";
+@import "sections/footer.scss";
+
+@import "sections/main-block.scss";
+@import "sections/choose.scss";
+@import "sections/rates.scss";
+@import "sections/request.scss";
+@import "sections/popup.scss";
