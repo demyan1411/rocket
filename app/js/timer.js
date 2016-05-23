@@ -1,6 +1,6 @@
 function timer() {
 	var now = new Date();
-	var newDate = new Date((now.getMonth()+1)+"/"+now.getDate()+"/"+now.getFullYear()+" 23:59:59"); //var newDate = new Date("Feb,29,2014 23:59:00");
+	var newDate = new Date((now.getMonth()+1)+"/"+now.getDate()+"/"+now.getFullYear()+" 23:59:59");
 	var totalRemains = (newDate.getTime()-now.getTime());
 	if (totalRemains>1) {
 		var Days = (parseInt(parseInt(totalRemains/1000)/(24*3600)));
