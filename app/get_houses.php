@@ -1,0 +1,112 @@
+<option value='0'>- № -</option>
+<option value='5829'data-connected='1' guid='' >д.1</option>
+<option value='27068'data-connected='0' guid='' >д.2</option>
+<option value='395268'data-connected='0' guid='e562e8f5-e161-4cf9-84fc-545628cc15c4' >д.3 стр.1</option>
+<option value='395244'data-connected='0' guid='a5865104-be3f-4bfa-bdde-e594575dee0c' >д.3 стр.9</option>
+<option value='395290'data-connected='0' guid='6bbea1f3-c2c3-4c8e-a3f2-f549b155f1ff' >д.3 стр.4</option>
+<option value='395238'data-connected='0' guid='ea8ddc54-1755-430a-8c35-a354639e7b6f' >д.3 стр.3</option>
+<option value='395303'data-connected='0' guid='7d287412-9d91-4c9f-864c-c750421527cd' >д.3 стр.10</option>
+<option value='395308'data-connected='0' guid='f8403938-e324-435d-a48c-f888d539c27a' >д.3 стр.2</option>
+<option value='395314'data-connected='0' guid='4b08f9dd-ef33-48bc-bfba-5c488cc87d59' >д.3 стр.5</option>
+<option value='2955'data-connected='1' guid='ef8d3fcd-e4d7-4cd6-9aae-ebf06704400a' >д.4</option>
+<option value='395302'data-connected='0' guid='14c53da4-b0fa-430c-889d-b0a6e38dcac3' >д.4 стр.4</option>
+<option value='395299'data-connected='0' guid='98d4d49f-f9dc-4737-b8d1-95f2dc184717' >д.4А стр.3</option>
+<option value='395297'data-connected='0' guid='5c4e2bc0-a119-445b-bdc5-c83b6acbd2b9' >д.4А стр.6</option>
+<option value='395272'data-connected='0' guid='341525ea-3530-46ee-b437-916a8ce5a535' >д.4А стр.5</option>
+<option value='395274'data-connected='0' guid='5017bd98-9d6a-457a-89c9-c9279b3269d0' >д.4 стр.11</option>
+<option value='395293'data-connected='0' guid='31be6835-dcb9-49d1-a708-ef3287be9384' >д.4А стр.7</option>
+<option value='395300'data-connected='0' guid='faa9473b-693f-4351-99b1-ad42b295d79c' >д.4 стр.7</option>
+<option value='395285'data-connected='0' guid='ee543373-dc7a-418a-89d5-bfd9f9306198' >д.4 стр.8</option>
+<option value='395282'data-connected='0' guid='2ae0d0a4-18ae-4af7-bc70-736c7947ffcb' >д.4А стр.1</option>
+<option value='395249'data-connected='0' guid='69d5b368-755f-4046-a32b-083fe91c3ba9' >д.4А стр.9</option>
+<option value='395280'data-connected='0' guid='91ec5696-0176-470e-b073-945c0ec84b82' >д.4А стр.12</option>
+<option value='395256'data-connected='0' guid='83dbb5ad-2c45-4163-8f9b-6fd75404ee57' >д.4 стр.21</option>
+<option value='395323'data-connected='0' guid='8b8a28e7-ec36-472b-815e-f81f0f367dfe' >д.4 стр.6</option>
+<option value='395261'data-connected='0' guid='bdd05521-5c67-408e-aed5-6e72438778cf' >д.4 стр.2</option>
+<option value='395321'data-connected='0' guid='c6c8b936-a4db-4eea-b589-9d6a24378db3' >д.4 стр.5</option>
+<option value='395229'data-connected='0' guid='f2f51a93-5e38-4e0f-8b49-1d6ad0295ac4' >д.4 стр.13</option>
+<option value='395231'data-connected='0' guid='5a3a9e86-1e83-417d-96ac-052fb35bee0a' >д.4 стр.10</option>
+<option value='395312'data-connected='0' guid='8529ef89-3474-465c-9dbb-fd8403e5bb93' >д.4 стр.12</option>
+<option value='395309'data-connected='0' guid='ebd24afb-3541-4339-a078-cc999fbde3f5' >д.4 стр.9</option>
+<option value='395269'data-connected='0' guid='ee1c4e32-5558-476e-8ea6-1f489898466c' >д.4А стр.2</option>
+<option value='395258'data-connected='0' guid='f3d433bb-886b-4632-a41d-71c2c90eada6' >д.4А стр.4</option>
+<option value='395263'data-connected='0' guid='58f00e0b-ab6b-4145-98f9-1d20b73f5718' >д.4 стр.3</option>
+<option value='395230'data-connected='0' guid='f63f50fd-2ad6-45ed-8162-05f0e08bdcbb' >д.5</option>
+<option value='395316'data-connected='0' guid='2762dffc-bfad-4647-b031-98de459d82b4' >д.5-7 стр.1</option>
+<option value='3025'data-connected='1' guid='' >д.6</option>
+<option value='20259'data-connected='1' guid='e8a0a5e8-b847-45d2-8c38-be5257461a95' >д.6 к.5</option>
+<option value='395320'data-connected='0' guid='42a78a60-a7b1-4c6b-a66e-de825953122e' >д.7 стр.3</option>
+<option value='395243'data-connected='0' guid='3bd16879-5081-41ff-ab98-788bdf611eca' >д.7 стр.2</option>
+<option value='395265'data-connected='0' guid='7c64ada6-e760-4007-a985-52f4a965aade' >д.8 стр.2</option>
+<option value='395318'data-connected='0' guid='f19c8410-ecc8-4c5b-8893-e695b8543753' >д.8 стр.42</option>
+<option value='395322'data-connected='0' guid='7ee9677c-8249-4c0c-a84e-f8aa7500eacc' >д.8 стр.15</option>
+<option value='395306'data-connected='0' guid='797be43e-e3a2-4f31-b757-8d6cf8210f4b' >д.8 стр.16</option>
+<option value='395305'data-connected='0' guid='9b167d5a-055f-4eda-8abf-58ac0f18c96c' >д.8 стр.13</option>
+<option value='395270'data-connected='0' guid='141c62f3-7fb5-4d73-85c8-7c9303679056' >д.8 стр.8</option>
+<option value='395325'data-connected='0' guid='e1ae916c-e077-496a-ac75-fc43eee77c25' >д.8 стр.5</option>
+<option value='395271'data-connected='0' guid='eec67940-2b63-485f-a867-91666b9e4c9c' >д.8 стр.40</option>
+<option value='395273'data-connected='0' guid='283d78d6-c186-4848-a5ff-62e27a8fff09' >д.8 стр.14</option>
+<option value='395277'data-connected='0' guid='f54f7a42-7c67-48f6-9d20-aa068723c660' >д.8 стр.11</option>
+<option value='395255'data-connected='0' guid='39e6032f-871f-41e7-bc72-59cecce9604d' >д.8 стр.4</option>
+<option value='31498'data-connected='0' guid='4fb6aa58-376a-438a-83d3-0ba2a99bf21f' >д.8 стр.9</option>
+<option value='395247'data-connected='0' guid='5d3dd6c1-c2da-4207-a6d1-191e81849816' >д.8 стр.6</option>
+<option value='31295'data-connected='0' guid='9f4a5a25-61ca-424b-80b9-195d9c39d9a7' >д.8 стр.1</option>
+<option value='395246'data-connected='0' guid='21c8d6d0-f226-485c-b646-9445edc4956e' >д.8 стр.12</option>
+<option value='395252'data-connected='0' guid='6d7116d2-9802-4a2a-9750-17ce500f5211' >д.8 стр.41</option>
+<option value='395253'data-connected='0' guid='bc309f8c-6181-4745-a5fa-d81cae9bd596' >д.8 стр.45</option>
+<option value='395254'data-connected='0' guid='075969f7-f5e7-4046-8a05-d591aedf1de8' >д.8 стр.10</option>
+<option value='24320'data-connected='0' guid='9f4a5a25-61ca-424b-80b9-195d9c39d9a7' >д.8</option>
+<option value='31275'data-connected='1' guid='62b98535-1624-40e3-9094-15c18a914d07' >д.8 стр.7</option>
+<option value='395236'data-connected='0' guid='906965e7-568b-4fe9-9403-280cd2e8f55f' >д.8 стр.3</option>
+<option value='31294'data-connected='0' guid='9f4a5a25-61ca-424b-80b9-195d9c39d9a7' >д.8 к.1</option>
+<option value='395292'data-connected='0' guid='6be6fd35-7692-4122-bcaf-e5ca6aa8c0ab' >д.9 стр.7</option>
+<option value='395237'data-connected='0' guid='931ce62c-c9d8-4236-a7a4-2a9c84e715aa' >д.9 стр.6</option>
+<option value='395304'data-connected='0' guid='9846168f-d2e0-451b-b6ac-dc599cd279c6' >д.9 стр.11</option>
+<option value='31404'data-connected='1' guid='dcfd7884-4a83-4575-ba80-ef90a4be16fc' >д.9</option>
+<option value='395288'data-connected='0' guid='7da71fd8-86a4-436c-8994-e2dfca9d45ef' >д.9 стр.2</option>
+<option value='395235'data-connected='0' guid='0f3f9913-3da1-48d0-ad59-3a394eb85be1' >д.9 стр.3</option>
+<option value='395283'data-connected='1' guid='59b23984-032c-4587-a089-6303a9b4d3cf' >д.9 стр.4</option>
+<option value='395241'data-connected='0' guid='423a4910-ab37-47c4-af24-5d2697f85dd2' >д.9 стр.8</option>
+<option value='395276'data-connected='0' guid='f9572a0a-7845-4c09-867e-e7fdd5d3043d' >д.9 стр.9</option>
+<option value='395264'data-connected='0' guid='a6d2aa62-96cf-4f04-8c8d-45aee23f3570' >д.9 стр.12</option>
+<option value='395278'data-connected='0' guid='16c9d395-fe32-444e-bb04-e940254f37a1' >д.9 стр.10</option>
+<option value='395266'data-connected='0' guid='3e702d32-def2-486b-9c5c-222ff0833ed1' >д.9 стр.5</option>
+<option value='395324'data-connected='0' guid='d68913c1-594a-475a-9a7a-c313efb18b3e' >д.10 стр.15</option>
+<option value='15303'data-connected='0' guid='5eda837c-d6d7-42de-9ff1-d5ade249528b' >д.10</option>
+<option value='395239'data-connected='0' guid='3a4a902c-1fdd-4517-9364-a103d4ad6496' >д.10 стр.20</option>
+<option value='395307'data-connected='0' guid='2f2a32a0-51a3-4ebd-8596-9cce6afab045' >д.10 стр.22</option>
+<option value='25356'data-connected='0' guid='5eda837c-d6d7-42de-9ff1-d5ade249528b' >д.10 стр.1</option>
+<option value='395233'data-connected='1' guid='1694ff4a-55ff-4120-9709-387722869d6d' >д.10 стр.8</option>
+<option value='395310'data-connected='1' guid='bcec6121-e577-4ea5-9e04-7f6a2b7b061e' >д.10 стр.12</option>
+<option value='395319'data-connected='0' guid='56dea5ed-5ee1-4fc6-9e8d-f3f4e8e9334e' >д.10 стр.7</option>
+<option value='395232'data-connected='0' guid='29661c60-980e-435c-84ea-124800e63641' >д.10 стр.17</option>
+<option value='395317'data-connected='0' guid='a4500806-fbf1-4440-a110-c75d0b93081a' >д.10 стр.4</option>
+<option value='395228'data-connected='0' guid='70b04380-addc-4565-844e-117d39e29050' >д.10 стр.10</option>
+<option value='395315'data-connected='0' guid='d8f2c7d4-b1e2-456c-8f23-6d0c98874a34' >д.10 стр.21</option>
+<option value='395240'data-connected='0' guid='248627b4-3c10-4b54-aeb0-af65c3cec946' >д.10 стр.33</option>
+<option value='395259'data-connected='1' guid='be6184f8-024e-4234-a394-6cfdfe8c151b' >д.10 стр.25</option>
+<option value='395251'data-connected='0' guid='fa80fdca-063d-4577-b030-21eaacaccf30' >д.10 стр.14</option>
+<option value='395279'data-connected='0' guid='49c618c8-e9db-45ac-9448-ba5a80638035' >д.10 стр.19</option>
+<option value='395250'data-connected='0' guid='c841f051-4eac-4fdd-9687-97a771011818' >д.10 стр.18</option>
+<option value='395281'data-connected='0' guid='16395475-7726-47f2-92fa-7c6714699e9f' >д.10 стр.2</option>
+<option value='395248'data-connected='0' guid='771e1518-efd4-4d3c-b852-461ed3143e54' >д.10 стр.11</option>
+<option value='395267'data-connected='0' guid='4a507b6b-7d58-4ef0-93a8-8b38b6dffdce' >д.10 стр.16</option>
+<option value='395287'data-connected='0' guid='ddf8a029-ed49-4fc3-90fd-9e883e148726' >д.10 стр.3</option>
+<option value='395262'data-connected='0' guid='f2f032c3-828c-452e-8d5d-6efc78932070' >д.10 стр.24</option>
+<option value='395289'data-connected='0' guid='623ae3fb-09e9-44ad-b5af-3efc70610d71' >д.10 стр.13</option>
+<option value='395291'data-connected='1' guid='58aa2f79-5034-40b5-a9eb-fa728a45e5a6' >д.10 стр.9</option>
+<option value='395298'data-connected='0' guid='5004406f-1b7e-48ce-b2c4-ee17b320a05b' >д.10 стр.23</option>
+<option value='395242'data-connected='0' guid='f8ea9dfe-df9a-4149-a4b8-5562c3647b18' >д.10 стр.34</option>
+<option value='395296'data-connected='1' guid='ee0305a5-64e8-4a3e-a76f-cf2b71026838' >д.10 стр.5</option>
+<option value='395295'data-connected='0' guid='dc71774f-9001-4a63-9333-faf066ac31cc' >д.10 стр.26</option>
+<option value='395294'data-connected='0' guid='dee0a86f-f5b0-4643-b7dd-e87351965e44' >д.10 стр.6</option>
+<option value='395245'data-connected='0' guid='ac075b9b-aba0-4faa-a7bb-8fe8d1a595bf' >д.10 стр.32</option>
+<option value='395286'data-connected='0' guid='52e1c573-a28b-4c8e-9c22-ec72d4a7adf7' >д.17</option>
+<option value='395275'data-connected='0' guid='23547cba-ad1a-4a84-8ce8-d0167ec38718' >д.17 стр.1</option>
+<option value='395260'data-connected='0' guid='3c83aa17-b2f5-4f57-aef9-0a7e9c0c542c' >д.17 стр.3</option>
+<option value='395234'data-connected='0' guid='3cf4a0d9-b48d-40dd-b8b2-11d4d720196f' >д.21 стр.1</option>
+<option value='395301'data-connected='0' guid='7217c3fb-598f-426e-92bc-ae8e36bfb2a4' >д.21 стр.2</option>
+<option value='395257'data-connected='0' guid='40c5c57c-c329-4989-b842-71062ac8b160' >д.23 стр.2</option>
+<option value='395284'data-connected='0' guid='1f083d46-fe5a-4c7d-ba30-67d4448939cb' >д.23 стр.3</option>
+<option value='395311'data-connected='0' guid='377bdded-5e54-4104-ab4b-f5e0952a392c' >д.23 стр.1</option>
+<option value='395313'data-connected='0' guid='19a5e423-4add-4915-9c9f-acc06f8ccfce' >д.23 стр.4</option>
