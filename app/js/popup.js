@@ -5,7 +5,7 @@ function Popup(options) {
 
 Popup.prototype._bindEvents = function () {
   this._el.on('click', this._openPopup.bind(this));
-  $('.js-overlay').on('click', this._closePopup.bind(this));
+  $('.js-overlay, .js-close').on('click', this._closePopup.bind(this));
 }
 
 Popup.prototype._openPopup = function (e) {

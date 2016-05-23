@@ -1,0 +1,73 @@
+.thx {
+  background: url(../img/thx.jpg) center top no-repeat;
+  padding-top: 125px;
+  height: 700px;
+
+  .wrapper {
+    padding-left: 410px;
+    padding-right: 0;
+  }
+
+  &__title {
+    font-family: $geoBold;
+    font-size: 40px;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+  }
+  &__text {
+    font-family: $btLight;
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+  &__subscribe {
+    font-family: $btLight;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+    margin-top: 70px;
+  }
+
+  .socials {
+    text-align: left;
+
+    &__icon:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .thx {
+    padding-top: 55px;
+
+  	.wrapper {
+  		padding-left: 20px;
+      padding-right: 20px;
+  	}
+    &__subscribe {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .thx {
+  	.wrapper {
+      max-width: 375px;
+  		padding-left: 10px;
+      padding-right: 10px;
+  	}
+    &__title {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+    &__text {
+      font-size: 24px;
+    }
+    &__subscribe {
+      margin-top: 53px;
+    }
+  }
+}

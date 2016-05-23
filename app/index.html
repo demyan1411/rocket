@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <title>title</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Подключение домашнего интернета 2КОМ</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <!-- build:css css/vendor.min.css-->
     <!-- bower:css-->
-    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/bower/animate.css/animate.css">
     <!-- endbower-->
     <!-- endbuild-->
     <!-- build:css css/style.min.css-->
@@ -29,13 +30,13 @@
     <div class="main">
       <section class="main-block">
         <div class="wrapper">
-          <div class="menu"><img src="img/logo.png" alt="" class="menu__logo">
+          <div class="menu"><a href="https://2kom.ru/"><img src="img/logo.png" alt="" class="menu__logo"></a>
             <div class="phone"><a href="" class="phone__link">(499) <span class="phone__link--bold">968-97-78</span></a><br><a href="" class="phone__button js-popup">Заказать обратный звонок</a></div>
             <nav class="menu__nav">
               <ul class="menu__list">
-                <li class="menu__item"><a href="" class="menu__link">Подключиться</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Тарифы</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Личный кабинет 2КОМ</a></li>
+                <li class="menu__item"><a href="#request" class="menu__link js-move"> Подключиться</a></li>
+                <li class="menu__item"><a href="#rates" class="menu__link js-move">Тарифы</a></li>
+                <li class="menu__item"><a href="https://2kom.ru/lk/login.php" class="menu__link">Личный кабинет 2КОМ</a></li>
               </ul>
             </nav>
           </div>
@@ -70,29 +71,29 @@
             5 причин, чтобы подключить высокоскоростной интернет и цифровое телевидение 2КОМ
             
           </div>
-          <div class="choose__block"><img src="img/choose-img1.png" alt="" class="choose__img">
+          <div class="choose__block"><img src="img/choose-img1.png" alt="" data-wow-offset="200" data-wow-delay="0s" class="choose__img wow zoomInDown">
             <div class="choose__name">Гигабитные скорости</div>
             <div class="choose__text">
                
               Качество и надежность<br>домашнего интернета
             </div>
           </div>
-          <div class="choose__block"><img src="img/choose-img2.png" alt="" class="choose__img">
+          <div class="choose__block"><img src="img/choose-img2.png" alt="" data-wow-offset="150" data-wow-delay=".2s" class="choose__img wow zoomInDown">
             <div class="choose__name">до 140 телеканалов</div>
             <div class="choose__text">
                
               Аренда ТВ-приставки бесплатно, <br>цифровое качество, мультирум
             </div>
           </div>
-          <div class="choose__block"><img src="img/choose-img3.png" alt="" class="choose__img">
+          <div class="choose__block"><img src="img/choose-img3.png" alt="" data-wow-offset="150" data-wow-delay=".4s" class="choose__img wow zoomInDown">
             <div class="choose__name">Удобно</div>
             <div class="choose__text">Легко оплачивать и управлять <br>услугами в Личном кабинете</div>
           </div>
-          <div class="choose__block"><img src="img/choose-img4.png" alt="" class="choose__img">
+          <div class="choose__block"><img src="img/choose-img4.png" alt="" data-wow-offset="0" data-wow-delay=".6s" class="choose__img wow zoomInDown">
             <div class="choose__name">Дополнительные опции</div>
             <div class="choose__text">ТурбоНочь, ТурбоКнопка, Отпуск и др.</div>
           </div>
-          <div class="choose__block"><img src="img/choose-img5.png" alt="" class="choose__img">
+          <div class="choose__block"><img src="img/choose-img5.png" alt="" data-wow-offset="0" data-wow-delay=".8s" class="choose__img wow zoomInDown">
             <div class="choose__name">Быстрая помощь</div>
             <div class="choose__text">Без выходных и перерывов на обед</div>
           </div>
@@ -162,8 +163,11 @@
         <div class="wrapper">
           <div class="request__title">Оставьте заявку на подключение</div>
           <form action="" class="request__form">
-            <input type="text" placeholder="Улица" class="request__input request__input--street">
-            <input type="text" placeholder="Дом" class="request__input request__input--house">
+            <input id="str_id" type="hidden" name="street_id">
+            <input id="str_nm" type="text" name="street_name" placeholder="Улица" class="request__input request__input--street">
+            <select id="dom_id" name="dom_id" disabled="" class="request__input request__input--house">
+              <option selected="">Дом</option>
+            </select>
             <input type="text" placeholder="Ваше имя" class="request__input request__input--name">
             <input type="text" placeholder="Телефон для связи" class="request__input request__input--phone">
             <label class="request__label">
@@ -179,16 +183,16 @@
         <div class="wrapper">
           <div class="footer__right">
             <div class="footer__text">Следите за новостями!</div>
-            <ul class="footer__socials">
-              <li class="footer__icon"><a href="" class="footer__link inst"></a></li>
-              <li class="footer__icon"><a href="" class="footer__link vk"></a></li>
-              <li class="footer__icon"><a href="" class="footer__link fb"></a></li>
-              <li class="footer__icon"><a href="" class="footer__link gplus"></a></li>
-              <li class="footer__icon"><a href="" class="footer__link tw"></a></li>
-              <li class="footer__icon"><a href="" class="footer__link pen"></a></li>
+            <ul class="socials">
+              <li class="socials__icon"><a href="https://www.instagram.com/2kom/" class="socials__link inst"></a></li>
+              <li class="socials__icon"><a href="http://vk.com/internet_2kom" class="socials__link vk"></a></li>
+              <li class="socials__icon"><a href="https://www.facebook.com/internet2KOM/" class="socials__link fb"></a></li>
+              <li class="socials__icon"><a href="https://plus.google.com/u/0/+%D0%A2%D1%83%D0%BA%D0%B0%D0%BD%D0%A2%D0%BE%D0%BA%D0%BE" class="socials__link gplus"></a></li>
+              <li class="socials__icon"><a href="https://twitter.com/2kom" class="socials__link tw"></a></li>
+              <li class="socials__icon"><a href="http://2kom.livejournal.com/" class="socials__link pen"></a></li>
             </ul>
           </div>
-          <div class="footer__left"><a href="" class="footer__person">Узнайте об обработке персональных данных</a>
+          <div class="footer__left"><a href="https://2kom.ru/doc/persdata.pdf" target="blank" class="footer__person">Узнайте об обработке персональных данных</a>
             <div class="footer__text">1992-2016 © Группа компаний 2КОМ</div>
             <div class="footer__text">109029, Москва, Автомобильный проезд, д.4</div>
           </div>
@@ -197,7 +201,9 @@
       <section class="popup">
         <div class="popup__overlay js-overlay"></div>
         <div class="popup__block">
+          <div class="popup__close js-close"></div>
           <form class="popup__form">
+            <input type="hidden" name="adress" value="">
             <div class="popup__desc">Введите ваши данные в форму ниже:</div>
             <input type="text" placeholder="Ваше Имя" class="popup__input popup__input--person">
             <input type="text" placeholder="Ваш номер телефона" class="popup__input popup__input--phone">
@@ -209,13 +215,15 @@
     </div>
     <!-- build:js js/vendor.min.js-->
     <!-- bower:js-->
-    <script src="bower/jquery/dist/jquery.js"></script>
+    <script src="/bower/jquery/dist/jquery.js"></script>
+    <script src="/bower/wow/dist/wow.js"></script>
     <!-- endbower-->
     <!-- endbuild-->
     <!-- build:js js/main.min.js-->
     <script src="js/move.js"></script>
     <script src="js/popup.js"></script>
     <script src="js/timer.js"></script>
+    <script src="js/jquery.street_suggestion.js"></script>
     <script src="js/main.js"></script>
     <!-- endbuild-->
   </body>

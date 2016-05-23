@@ -1,0 +1,43 @@
+.suggestion {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: -moz-use-text-color #666 #666;
+    border-image: none;
+    border-radius: 0 0 7px 7px;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    box-shadow: 2px 2px 2px #ccc inset;
+    display: none;
+    height: auto;
+    left: 0 !important;
+    margin-left: 0;
+    margin-top: 5px;
+    max-height: 200px;
+    min-width: 364px !important;
+    overflow: auto;
+    padding: 5px 7px;
+    position: absolute;
+    width: 364px !important;
+}
+.suggestion .selected {
+	background: #AAA;
+}
+.podkl {
+	background-color: #DFD;
+	border: 1px solid #070;
+	margin: 5px;
+	padding: 7px 10px;
+	font-size: 16px;
+	display: none;
+}
+.nepodkl {
+	background-color: #FAA;
+	border: 1px solid #C00;
+	margin: 5px;
+	padding: 7px 10px;
+	font-size: 16px;
+	display: none;
+}

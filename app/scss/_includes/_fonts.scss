@@ -44,23 +44,6 @@
 }
 
 @font-face {
-  font-family: 'BrutalType-Light';
-  src: url('../fonts/BrutalType-Light.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/BrutalType-Light.woff') format('woff'),
-      url('../fonts/BrutalType-Light.ttf')  format('truetype'), url('../fonts/BrutalType-Light.svg#BrutalType-Light') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'BrutalType-Medium';
-  src: url('../fonts/BrutalType-Medium.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/BrutalType-Medium.woff') format('woff'), url('../fonts/BrutalType-Medium.ttf')  format('truetype'), url('../fonts/BrutalType-Medium.svg#BrutalType-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
     font-family: 'robotobold';
     src: url('../fonts/roboto-bold-webfont.eot');
     src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -83,5 +66,61 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'brutal_typeextrabold';
+    src: url('../fonts/brownfox_-_brutal_type_extrabold-webfont.eot');
+    src: url('../fonts/brownfox_-_brutal_type_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brownfox_-_brutal_type_extrabold-webfont.woff') format('woff'),
+         url('../fonts/brownfox_-_brutal_type_extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/brownfox_-_brutal_type_extrabold-webfont.svg#brutal_typeextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-/* fonts end */
+}
+@font-face {
+    font-family: 'brutal_typelight';
+    src: url('../fonts/brownfox_-_brutal_type_light-webfont.eot');
+    src: url('../fonts/brownfox_-_brutal_type_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brownfox_-_brutal_type_light-webfont.woff') format('woff'),
+         url('../fonts/brownfox_-_brutal_type_light-webfont.ttf') format('truetype'),
+         url('../fonts/brownfox_-_brutal_type_light-webfont.svg#brutal_typelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brutal_typemedium';
+    src: url('../fonts/brownfox_-_brutal_type_medium-webfont.eot');
+    src: url('../fonts/brownfox_-_brutal_type_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brownfox_-_brutal_type_medium-webfont.woff') format('woff'),
+         url('../fonts/brownfox_-_brutal_type_medium-webfont.ttf') format('truetype'),
+         url('../fonts/brownfox_-_brutal_type_medium-webfont.svg#brutal_typemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brutal_typebold';
+    src: url('../fonts/brutaltype-bold-webfont.eot');
+    src: url('../fonts/brutaltype-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brutaltype-bold-webfont.woff') format('woff'),
+         url('../fonts/brutaltype-bold-webfont.ttf') format('truetype'),
+         url('../fonts/brutaltype-bold-webfont.svg#brutal_typebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'brutal_typeregular';
+    src: url('../fonts/brownfox_-_brutal_type-webfont.eot');
+    src: url('../fonts/brownfox_-_brutal_type-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brownfox_-_brutal_type-webfont.woff') format('woff'),
+         url('../fonts/brownfox_-_brutal_type-webfont.ttf') format('truetype'),
+         url('../fonts/brownfox_-_brutal_type-webfont.svg#brutal_typeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

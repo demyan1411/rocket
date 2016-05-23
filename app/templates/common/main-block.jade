@@ -1,7 +1,9 @@
 section.main-block
   .wrapper
     .menu
-      img.menu__logo(src="img/logo.png", alt="")
+      a(href="https://2kom.ru/")
+        img.menu__logo(src="img/logo.png", alt="")
+        
       .phone
         a.phone__link(href="")
           | (499) 
@@ -12,13 +14,13 @@ section.main-block
       nav.menu__nav
         ul.menu__list
           li.menu__item
-            a.menu__link(href="") Подключиться
+            a.menu__link.js-move(href="#request")  Подключиться
             
           li.menu__item
-            a.menu__link(href="") Тарифы
+            a.menu__link.js-move(href="#rates") Тарифы
             
           li.menu__item
-            a.menu__link(href="") Личный кабинет 2КОМ
+            a.menu__link(href="https://2kom.ru/lk/login.php") Личный кабинет 2КОМ
             
     h1.main-block__title.
       Подключите интернет и ТВ от 2KOM и летайте на космических скоростях!

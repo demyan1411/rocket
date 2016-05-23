@@ -1,0 +1,67 @@
+.socials {
+  text-align: right;
+
+  &__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  &__link {
+    display: block;
+
+    &.inst {
+      width: 30px;
+      height: 30px;
+      background: url(../img/inst.png) 0 0 no-repeat;
+
+      &:hover {
+        background-position: -31px 0;
+      }
+    }
+    &.vk {
+      width: 48px;
+      height: 25px;
+      background: url(../img/vk.png) 0 0 no-repeat;
+
+      &:hover {
+        background-position: -49px 0;
+      }
+    }
+    &.fb {
+      width: 14px;
+      height: 29px;
+      background: url(../img/fb.png) 0 0 no-repeat;
+
+      &:hover {
+        background-position: -15px 0;
+      }
+    }
+    &.gplus {
+      width: 29px;
+      height: 28px;
+      background: url(../img/gplus.png) 0 0 no-repeat;
+
+      &:hover {
+        background-position: -30px 0;
+      }
+    }
+    &.tw {
+      width: 32px;
+      height: 25px;
+      background: url(../img/tw.png) 0 0 no-repeat;
+
+      &:hover {
+        background-position: -32px 0;
+      }
+    }
+    &.pen {
+      width: 23px;
+      height: 29px;
+      background: url(../img/pen.png) 0 0 no-repeat;
+
+      &:hover {
+        background-position: -24px 0;
+      }
+    }
+  }
+}

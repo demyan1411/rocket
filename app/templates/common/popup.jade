@@ -1,7 +1,9 @@
 section.popup
   .popup__overlay.js-overlay
   .popup__block
+    .popup__close.js-close
     form.popup__form
+      input(type='hidden', name='adress', value="")
       .popup__desc Введите ваши данные в форму ниже:
       input.popup__input.popup__input--person(type="text", placeholder="Ваше Имя")
       input.popup__input.popup__input--phone(type="text", placeholder="Ваш номер телефона")

@@ -2,8 +2,11 @@ section.request#request
   .wrapper
     .request__title Оставьте заявку на подключение
     form(action="").request__form
-      input.request__input.request__input--street(type="text", placeholder="Улица")
-      input.request__input.request__input--house(type="text", placeholder="Дом")
+      input#str_id(type='hidden', name='street_id')
+      input.request__input.request__input--street#str_nm(type='text', name='street_name', placeholder="Улица")
+      select.request__input.request__input--house#dom_id(name='dom_id', disabled='')
+        option(selected="") Дом
+      
       input.request__input.request__input--name(type="text", placeholder="Ваше имя")
       input.request__input.request__input--phone(type="text", placeholder="Телефон для связи")
       label.request__label

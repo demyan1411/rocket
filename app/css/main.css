@@ -35,18 +35,6 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'BrutalType-Light';
-  src: url("../fonts/BrutalType-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/BrutalType-Light.woff") format("woff"), url("../fonts/BrutalType-Light.ttf") format("truetype"), url("../fonts/BrutalType-Light.svg#BrutalType-Light") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'BrutalType-Medium';
-  src: url("../fonts/BrutalType-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/BrutalType-Medium.woff") format("woff"), url("../fonts/BrutalType-Medium.ttf") format("truetype"), url("../fonts/BrutalType-Medium.svg#BrutalType-Medium") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
   font-family: 'robotobold';
   src: url("../fonts/roboto-bold-webfont.eot");
   src: url("../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold-webfont.woff") format("woff"), url("../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../fonts/roboto-bold-webfont.svg#robotobold") format("svg");
@@ -60,7 +48,41 @@
   font-weight: normal;
   font-style: normal; }
 
-/* fonts end */
+@font-face {
+  font-family: 'brutal_typeextrabold';
+  src: url("../fonts/brownfox_-_brutal_type_extrabold-webfont.eot");
+  src: url("../fonts/brownfox_-_brutal_type_extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brownfox_-_brutal_type_extrabold-webfont.woff") format("woff"), url("../fonts/brownfox_-_brutal_type_extrabold-webfont.ttf") format("truetype"), url("../fonts/brownfox_-_brutal_type_extrabold-webfont.svg#brutal_typeextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'brutal_typelight';
+  src: url("../fonts/brownfox_-_brutal_type_light-webfont.eot");
+  src: url("../fonts/brownfox_-_brutal_type_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brownfox_-_brutal_type_light-webfont.woff") format("woff"), url("../fonts/brownfox_-_brutal_type_light-webfont.ttf") format("truetype"), url("../fonts/brownfox_-_brutal_type_light-webfont.svg#brutal_typelight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'brutal_typemedium';
+  src: url("../fonts/brownfox_-_brutal_type_medium-webfont.eot");
+  src: url("../fonts/brownfox_-_brutal_type_medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brownfox_-_brutal_type_medium-webfont.woff") format("woff"), url("../fonts/brownfox_-_brutal_type_medium-webfont.ttf") format("truetype"), url("../fonts/brownfox_-_brutal_type_medium-webfont.svg#brutal_typemedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'brutal_typebold';
+  src: url("../fonts/brutaltype-bold-webfont.eot");
+  src: url("../fonts/brutaltype-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brutaltype-bold-webfont.woff") format("woff"), url("../fonts/brutaltype-bold-webfont.ttf") format("truetype"), url("../fonts/brutaltype-bold-webfont.svg#brutal_typebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'brutal_typeregular';
+  src: url("../fonts/brownfox_-_brutal_type-webfont.eot");
+  src: url("../fonts/brownfox_-_brutal_type-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brownfox_-_brutal_type-webfont.woff") format("woff"), url("../fonts/brownfox_-_brutal_type-webfont.ttf") format("truetype"), url("../fonts/brownfox_-_brutal_type-webfont.svg#brutal_typeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* --------- sections --------- */
 /* стили по умолчанию */
 a {
@@ -71,6 +93,11 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
 
 address {
   font-style: normal; }
@@ -141,50 +168,6 @@ body {
     line-height: 25px;
     display: block;
     margin-bottom: 5px; }
-  .footer__socials {
-    text-align: right; }
-  .footer__icon {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 15px; }
-  .footer__link {
-    display: block; }
-    .footer__link.inst {
-      width: 30px;
-      height: 30px;
-      background: url(../img/inst.png) 0 0 no-repeat; }
-      .footer__link.inst:hover {
-        background-position: -31px 0; }
-    .footer__link.vk {
-      width: 48px;
-      height: 25px;
-      background: url(../img/vk.png) 0 0 no-repeat; }
-      .footer__link.vk:hover {
-        background-position: -49px 0; }
-    .footer__link.fb {
-      width: 14px;
-      height: 29px;
-      background: url(../img/fb.png) 0 0 no-repeat; }
-      .footer__link.fb:hover {
-        background-position: -15px 0; }
-    .footer__link.gplus {
-      width: 29px;
-      height: 28px;
-      background: url(../img/gplus.png) 0 0 no-repeat; }
-      .footer__link.gplus:hover {
-        background-position: -30px 0; }
-    .footer__link.tw {
-      width: 32px;
-      height: 25px;
-      background: url(../img/tw.png) 0 0 no-repeat; }
-      .footer__link.tw:hover {
-        background-position: -32px 0; }
-    .footer__link.pen {
-      width: 23px;
-      height: 29px;
-      background: url(../img/pen.png) 0 0 no-repeat; }
-      .footer__link.pen:hover {
-        background-position: -24px 0; }
   .footer__left {
     float: left; }
   .footer__person {
@@ -247,7 +230,7 @@ body {
   .main-block__rate {
     font-size: 25px;
     line-height: 28px;
-    font-family: "BrutalType-Light"; }
+    font-family: "brutal_typelight"; }
   .main-block__button {
     font-family: "geometriabold";
     font-size: 22px;
@@ -256,6 +239,9 @@ body {
     margin-top: 45px;
     display: inline-block;
     padding: 15px 32px; }
+    .main-block__button:hover {
+      background: #fff;
+      color: #000; }
   .main-block__down {
     width: 27px;
     height: 15px;
@@ -289,15 +275,15 @@ body {
     .menu__item:nth-child(2) {
       width: 80px; }
     .menu__item:nth-child(3) {
-      width: 225px;
+      width: 228px;
       margin-right: 0; }
   .menu__link {
-    font-family: "BrutalType-Light";
+    font-family: "brutal_typelight";
     font-size: 20px;
     line-height: 23px;
     padding: 0 3px; }
     .menu__link:hover {
-      font-family: "BrutalType-Medium";
+      font-family: "brutal_typeextrabold";
       color: #f17648; }
 
 .phone {
@@ -308,13 +294,13 @@ body {
   margin-left: 56px;
   margin-top: -8px; }
   .phone__link {
-    font-family: "BrutalType-Light";
+    font-family: "brutal_typelight";
     font-size: 24px;
     line-height: 33px;
     background: url(../img/phone.png) 2px 6px no-repeat;
     padding-left: 25px; }
     .phone__link--bold {
-      font-family: "BrutalType-Medium"; }
+      font-family: "brutal_typebold"; }
   .phone__button {
     font-family: "geometriabold";
     font-size: 11px;
@@ -342,7 +328,7 @@ body {
       line-height: 22px;
       display: block; }
     .counter__title--span {
-      font-family: "BrutalType-Light";
+      font-family: "brutal_typelight";
       font-size: 17px;
       line-height: 20px;
       color: #cdcdcd; }
@@ -363,7 +349,7 @@ body {
     font-size: 37px;
     line-height: 79px; }
   .counter__text {
-    font-family: "BrutalType-Light";
+    font-family: "brutal_typelight";
     font-size: 17px;
     line-height: 20px;
     color: #cdcdcd; }
@@ -519,7 +505,7 @@ body {
     clear: both; }
 
 .rates__name {
-  font-family: "BrutalType-Medium";
+  font-family: "brutal_typemedium";
   font-size: 30px;
   line-height: 33px;
   margin-top: 10px;
@@ -535,18 +521,18 @@ body {
   vertical-align: middle; }
 
 .rates__bold {
-  font-family: "BrutalType-Medium";
+  font-family: "brutal_typemedium";
   font-size: 30px;
   line-height: 33px; }
 
 .rates__text {
-  font-family: "BrutalType-Medium";
+  font-family: "brutal_typemedium";
   font-size: 20px;
   line-height: 23px;
   color: #f0b6a4; }
 
 .rates__plus {
-  font-family: "BrutalType-Medium";
+  font-family: "brutal_typemedium";
   font-size: 30px;
   line-height: 33px;
   margin: 0 15px; }
@@ -568,7 +554,7 @@ body {
   vertical-align: middle;
   width: 193px;
   height: 54px;
-  font-family: "BrutalType-Medium";
+  font-family: "brutal_typemedium";
   font-size: 18px;
   line-height: 50px;
   border: 2px solid #fff;
@@ -669,7 +655,7 @@ body {
     display: block;
     margin-bottom: 13px;
     padding-left: 30px;
-    font-family: "BrutalType-Light";
+    font-family: "brutal_typelight";
     font-size: 19px;
     color: #9da6ac; }
     .request__input--street {
@@ -690,7 +676,7 @@ body {
     .request__checkbox:checked + .request__check {
       background: url(../img/checkbox.png) 0 0 no-repeat; }
   .request__text {
-    font-family: "BrutalType-Light";
+    font-family: "brutal_typelight";
     font-size: 19px;
     line-height: 22px;
     color: #fff;
@@ -708,6 +694,8 @@ body {
     width: 100%;
     padding: 16px 0;
     margin-top: 13px; }
+    .request__button:hover {
+      background: #bd3807; }
 
 @media screen and (max-width: 1020px) {
   .request {
@@ -780,6 +768,14 @@ body {
     border-radius: 15px;
     width: 433px;
     padding: 40px 50px 35px; }
+  .popup__close {
+    background: url(../img/close.png) 0 0 no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer; }
   .popup__form {
     color: #333;
     font-size: 14px;
@@ -819,3 +815,142 @@ body {
     width: 322px;
     padding-left: 41px;
     background: url(../img/popup-phone2.png) 4px 1px no-repeat; }
+
+.socials {
+  text-align: right; }
+  .socials__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px; }
+  .socials__link {
+    display: block; }
+    .socials__link.inst {
+      width: 30px;
+      height: 30px;
+      background: url(../img/inst.png) 0 0 no-repeat; }
+      .socials__link.inst:hover {
+        background-position: -31px 0; }
+    .socials__link.vk {
+      width: 48px;
+      height: 25px;
+      background: url(../img/vk.png) 0 0 no-repeat; }
+      .socials__link.vk:hover {
+        background-position: -49px 0; }
+    .socials__link.fb {
+      width: 14px;
+      height: 29px;
+      background: url(../img/fb.png) 0 0 no-repeat; }
+      .socials__link.fb:hover {
+        background-position: -15px 0; }
+    .socials__link.gplus {
+      width: 29px;
+      height: 28px;
+      background: url(../img/gplus.png) 0 0 no-repeat; }
+      .socials__link.gplus:hover {
+        background-position: -30px 0; }
+    .socials__link.tw {
+      width: 32px;
+      height: 25px;
+      background: url(../img/tw.png) 0 0 no-repeat; }
+      .socials__link.tw:hover {
+        background-position: -32px 0; }
+    .socials__link.pen {
+      width: 23px;
+      height: 29px;
+      background: url(../img/pen.png) 0 0 no-repeat; }
+      .socials__link.pen:hover {
+        background-position: -24px 0; }
+
+.thx {
+  background: url(../img/thx.jpg) center top no-repeat;
+  padding-top: 125px;
+  height: 700px; }
+  .thx .wrapper {
+    padding-left: 410px;
+    padding-right: 0; }
+  .thx__title {
+    font-family: "geometriabold";
+    font-size: 40px;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 45px; }
+  .thx__text {
+    font-family: "brutal_typelight";
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 40px; }
+  .thx__subscribe {
+    font-family: "brutal_typelight";
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+    margin-top: 70px; }
+  .thx .socials {
+    text-align: left; }
+    .thx .socials__icon:first-child {
+      margin-left: 0; }
+
+@media screen and (max-width: 1020px) {
+  .thx {
+    padding-top: 55px; }
+    .thx .wrapper {
+      padding-left: 20px;
+      padding-right: 20px; }
+    .thx__subscribe {
+      margin-top: 0; } }
+
+@media screen and (max-width: 477px) {
+  .thx .wrapper {
+    max-width: 375px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .thx__title {
+    font-size: 28px;
+    margin-bottom: 25px; }
+  .thx__text {
+    font-size: 24px; }
+  .thx__subscribe {
+    margin-top: 53px; } }
+
+.suggestion {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #fff none repeat scroll 0 0;
+  border-color: -moz-use-text-color #666 #666;
+  border-image: none;
+  border-radius: 0 0 7px 7px;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+  box-shadow: 2px 2px 2px #ccc inset;
+  display: none;
+  height: auto;
+  left: 0 !important;
+  margin-left: 0;
+  margin-top: 5px;
+  max-height: 200px;
+  min-width: 364px !important;
+  overflow: auto;
+  padding: 5px 7px;
+  position: absolute;
+  width: 364px !important; }
+
+.suggestion .selected {
+  background: #AAA; }
+
+.podkl {
+  background-color: #DFD;
+  border: 1px solid #070;
+  margin: 5px;
+  padding: 7px 10px;
+  font-size: 16px;
+  display: none; }
+
+.nepodkl {
+  background-color: #FAA;
+  border: 1px solid #C00;
+  margin: 5px;
+  padding: 7px 10px;
+  font-size: 16px;
+  display: none; }

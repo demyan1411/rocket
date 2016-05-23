@@ -32,6 +32,15 @@
     width: 433px;
     padding: 40px 50px 35px;
   }
+  &__close {
+    background: url(../img/close.png) 0 0 no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
   &__form {
     color: #333;
     font-size: 14px;

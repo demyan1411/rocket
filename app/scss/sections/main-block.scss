@@ -27,6 +27,11 @@
     margin-top: 45px;
     display: inline-block;
     padding: 15px 32px;
+
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
   }
 
   &__down {
@@ -68,7 +73,7 @@
       width: 80px;
     }
     &:nth-child(3) {
-      width: 225px;
+      width: 228px;
       margin-right: 0;
     }
   }
