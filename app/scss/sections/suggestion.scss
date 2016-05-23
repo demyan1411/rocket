@@ -6,7 +6,7 @@
     background: #fff none repeat scroll 0 0;
     border-color: -moz-use-text-color #666 #666;
     border-image: none;
-    border-radius: 0 0 7px 7px;
+    border-radius: 0 0 4px 4px;
     border-style: none solid solid;
     border-width: medium 1px 1px;
     box-shadow: 2px 2px 2px #ccc inset;
@@ -20,6 +20,17 @@
     padding: 5px 7px;
     position: absolute;
     width: 353px !important;
+    color: #9da6ac;
+    font-size: 14px;
+
+    div {
+      height: 30px;
+      line-height: 30px;
+
+      &:hover {
+        color: #fff;
+      }
+    }
 }
 .suggestion .selected {
 	background: #AAA;
