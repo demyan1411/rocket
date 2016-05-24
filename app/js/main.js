@@ -2,6 +2,11 @@
 
 $(document).ready(function() {
 
+	$('.js-phone').inputmask({
+		mask: "+7(999)999-99-99",
+		showMaskOnHover: false
+	});
+
 	new Move({
 		el: '.js-move'
 	});

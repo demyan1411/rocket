@@ -17,7 +17,8 @@
     "jquery": "1.11.3",
     "normalize-css": "normalize.css#~3.0.3",
     "wow": "WOW#^1.1.2",
-    "animate.css": "^3.5.1"
+    "animate.css": "^3.5.1",
+    "jquery.inputmask": "^3.3.1"
   },
   "devDependencies": {
     "modernizr": "~2.8.3",

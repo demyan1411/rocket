@@ -15,10 +15,10 @@
     margin-left: 0;
     margin-top: 5px;
     max-height: 200px;
-    min-width: 353px !important;
     overflow: auto;
     padding: 5px 7px;
     position: absolute;
+    min-width: 353px !important;
     width: 353px !important;
     color: #9da6ac;
     font-size: 14px;
@@ -50,4 +50,20 @@
 	padding: 7px 10px;
 	font-size: 16px;
 	display: none;
+}
+option {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1020px) {
+  .suggestion {
+    width: 295px !important;
+    min-width: 295px !important;
+  }
+}
+@media screen and (max-width: 477px) {
+  .suggestion {
+    width: 290px !important;
+    min-width: 290px !important;
+  }
 }

@@ -146,6 +146,12 @@
       }
     }
 
+    select {
+      text-align-last: center; text-align: center;
+      -ms-text-align-last: center;
+      -moz-text-align-last: center; text-align-last: center;
+    }
+
     &__text {
       font-size: 15px;
       line-height: 18px;
